@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+img{
+  cursor: pointer;
+}
+#loading {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(0, 0, 0);
+  z-index: 99999999;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99999;
+}
+.nav {
+  position: fixed;
+  width: 100%;
+  z-index: 999999;
+}
+
+.content {
+  color: red;
+  top: 100px;
+  left: 20px;
+  z-index: 9999;
+}
+.slider-full {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 70vh;
+}
+.col-md .move {
+  bottom: 15px;
+  left: 70px;
+}
+.campaigns-items .campaigns-content {
+  top: 10px;
+  left: 20px;
+}
+.blog-item .blog-content {
+  border: 3px solid #fff;
+  background-color: #fff;
+  width: 100%;
+  bottom: 1px;
+  left: 0px;
+}
+.bar {
+  width: 80px;
+  height: 3px;
+  margin: auto;
+  background-color: rgb(156, 223, 21);
+}
+.brand {
+  margin: 2px solid;
+  background-color: rgba(211, 209, 209, 0.4);
+  cursor: pointer;
+}
+.brand img {
+  opacity: 0.5;
+  transition: opacity 0.3s; /* عشان يبقى فيه سلاسة */
+  cursor: pointer;
+}
+.campa {
+  background-image: url(../e-commerce-project-master/img/single-campaign.png);
+  height: 85vh;
+}
+.campa-bar {
+  width: 100px;
+  height: 5px;
+  background-color: rgb(237, 235, 234);
+  left: 30%;
+}
+.icons {
+  border: 2px solid #fff;
+  background-color: #ebebeb;
+  margin: 2px;
+  padding: 3px solid #fff;
+}
+#subscribe {
+  width: 70%;
+  text-decoration: none;
+  padding: 3px;
+  margin: auto;
+}
+.iii {
+  padding-left: 20px;
+}
+.footer-desc h3 {
+  font-size: 30px;
+  max-width: 500px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.foooter button {
+  padding: 2px;
+  margin: auto;
+}
+.list a{
+  display: block;
+  padding-left: 8px;
+  padding-top: 5px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.footer li{
+  list-style-type: none;
+  display: inline-block;
+  font-size: small;
+}
+
+.made{
+  height: 30vh;
+}
+.made img{
+  border: 5px solid rgb(49, 241, 49);
+  padding: 2px;
+
+}
